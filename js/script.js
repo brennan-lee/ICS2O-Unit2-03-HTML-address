@@ -9,7 +9,7 @@
  */
  function enterClicked() {
     // input
-    const street Number = document.getElementById("street number").value
+    const street Number = parseInt (document.getElementById("street number").value
     const street = parseInt(document.getElementById("street").value)
   
     // output
