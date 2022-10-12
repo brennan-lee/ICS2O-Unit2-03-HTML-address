@@ -9,8 +9,8 @@
  */
  function enterClicked() {
     // input
-    const street Number = document.getElementById("first-name").value
-    const street = parseInt(document.getElementById("age-entered").value)
+    const street Number = document.getElementById("street number").value
+    const street = parseInt(document.getElementById("street").value)
   
     // output
     document.getElementById("address").innerHTML =
