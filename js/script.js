@@ -7,13 +7,12 @@
 /**
  * This function gets users sreet and sreet number and shows it back to user.
  */
- function enterClicked() {
-    // input
-    const streetNumber = parseInt (document.getElementById("street-number").value)
-    const streetName = parseInt(document.getElementById("street-name").value)
-  
-    // output
-    document.getElementById("address").innerHTML =
-      "Your info is: " + streetName + "," + streetNumber + "."
-  }
-  
+function enterClicked() {
+  // input
+  const streetNumber = parseInt(document.getElementById("street-number").value)
+  const streetName = parseInt(document.getElementById("street-name").value)
+
+  // output
+  document.getElementById("address").innerHTML =
+    "Your info is: " + streetName + "," + streetNumber + "."
+}
