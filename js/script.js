@@ -14,6 +14,6 @@
   
     // output
     document.getElementById("address").innerHTML =
-      "Your info is: " + streetName + "", streetNumber. " "
+      "Your info is: " + streetName + "", streetNumber. " 
   }
   
