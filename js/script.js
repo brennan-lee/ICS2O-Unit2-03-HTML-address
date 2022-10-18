@@ -1,5 +1,5 @@
 function enterClicked() {
-  const street = document.getElementById("street").value
+  const street = document.getElementById("street-entered").value
   const streetNumber = parseInt(
     document.getElementById("street number-entered").value
   )
