@@ -36,6 +36,12 @@
         <form action="#">
           <p>street number</p>
           <div class="mdl-textfield mdl-js-textfield">
+            <input
+            class="mdl-textfield__input"
+            type="text"
+            pattern="-?[0-9]*(\.[0-9]+)?"
+            id="street"
+          />
             <input class="mdl-textfield__input" type="text" id="street-name" />
             <label class="mdl-textfield__label" for="street-number"
               >street number here ...</label
@@ -45,13 +51,6 @@
         <!-- Numeric Textfield -->
         <form action="#">
           <p>street</p>
-          <div class="mdl-textfield mdl-js-textfield">
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
-              id="street"
-            />
             <label class="mdl-textfield__label" for="street"
               >street name here ...</label
             >
