@@ -7,7 +7,7 @@
 /**
  * This function gets users street and street number and shows it back to user.
  */
- function enterClicked() {
+function enterClicked() {
   // input
   const street = document.getElementById("street").value
   const streetNumber = parseInt(document.getElementById("streetNumber").value)
